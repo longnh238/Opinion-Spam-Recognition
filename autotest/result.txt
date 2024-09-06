@@ -1,0 +1,232 @@
+****************************************************************************************** 
+ OPINION SPAM DETECTING SYSTEM 
+ TESTING RESULT 
+ DESIGNED BY LONGNH & NGHIAPHT 
+ UNIVERSITY OF TECHNOLOGY 
+******************************************************************************************
+
+
+*******************************
+TEST SPAM 
+*******************************
+NUM 	 PRODUCT TYPE 	 EXPECTED TYPE 	 CONDITION1 	 CONDITION2 	 CONDITION3 	 CONDITION4 	 ACTUAL TYPE 	 RESULT
+1	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+2	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+3	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+4	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+5	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+6	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+7	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+8	book	non-review	 true 	 - 	 - 	 -	non-review	 passed
+9	book	non-review	 true 	 - 	 - 	 -	non-review	 passed
+10	book	non-review	 true 	 - 	 - 	 -	non-review	 passed
+11	book	non-review	 true 	 - 	 - 	 -	non-review	 passed
+12	book	non-review	 true 	 - 	 - 	 -	non-review	 passed
+13	book	non-review	 true 	 - 	 - 	 -	non-review	 passed
+14	book	non-review	 true 	 - 	 - 	 -	non-review	 passed
+15	book	non-review	 true 	 - 	 - 	 -	non-review	 passed
+16	book	non-review	 true 	 - 	 - 	 -	non-review	 passed
+17	book	non-review	 true 	 - 	 - 	 -	non-review	 passed
+18	book	non-review	 true 	 - 	 - 	 -	non-review	 passed
+19	book	non-review	non-spam	 fail
+20	book	non-review	 true 	 - 	 - 	 -	non-review	 passed
+21	book	non-review	 true 	 - 	 - 	 -	non-review	 passed
+22	book	non-review	 true 	 - 	 - 	 -	non-review	 passed
+23	book	non-review	 true 	 - 	 - 	 -	non-review	 passed
+24	book	non-review	 true 	 - 	 - 	 -	non-review	 passed
+25	book	non-review	 true 	 - 	 - 	 -	non-review	 passed
+26	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+27	phone	non-review	non-spam	 fail
+28	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+29	laptop	non-review	 true 	 - 	 - 	 -	non-review	 passed
+30	laptop	non-review	 true 	 - 	 - 	 -	non-review	 passed
+31	laptop	non-review	 true 	 - 	 - 	 -	non-review	 passed
+32	laptop	non-review	 true 	 - 	 - 	 -	non-review	 passed
+33	laptop	non-review	 true 	 - 	 - 	 -	non-review	 passed
+34	laptop	non-review	 true 	 - 	 - 	 -	non-review	 passed
+35	laptop	non-review	 true 	 - 	 - 	 -	non-review	 passed
+36	laptop	non-review	 true 	 - 	 - 	 -	non-review	 passed
+37	laptop	non-review	 true 	 - 	 - 	 -	non-review	 passed
+38	laptop	non-review	 true 	 - 	 - 	 -	non-review	 passed
+39	laptop	non-review	 true 	 - 	 - 	 -	non-review	 passed
+40	laptop	non-review	 true 	 - 	 - 	 -	non-review	 passed
+41	laptop	non-review	 true 	 - 	 - 	 -	non-review	 passed
+42	laptop	non-review	 true 	 - 	 - 	 -	non-review	 passed
+43	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+44	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+45	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+46	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+47	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+48	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+49	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+50	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+51	camera	non-review	non-spam	 fail
+52	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+53	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+54	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+55	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+56	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+57	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+58	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+59	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+60	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+61	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+62	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+63	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+64	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+65	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+66	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+67	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+68	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+69	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+70	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+71	camera	non-review	 true 	 - 	 - 	 -	non-review	 passed
+72	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+73	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+74	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+75	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+76	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+77	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+78	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+79	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+80	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+81	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+82	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+83	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+84	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+85	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+86	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+87	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+88	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+89	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+90	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+91	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+92	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+93	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+94	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+95	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+96	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+97	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+98	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+99	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+100	phone	non-review	 true 	 - 	 - 	 -	non-review	 passed
+
+
+*******************************
+TEST NON SPAM 
+*******************************
+NUM 	 PRODUCT TYPE 	 EXPECTED TYPE 	 CONDITION1 	 CONDITION2 	 CONDITION3 	 CONDITION4 	 ACTUAL TYPE 	 RESULT
+1	hotel	non-spam	non-spam	 passed
+2	hotel	non-spam	non-spam	 passed
+3	hotel	non-spam	non-spam	 passed
+4	hotel	non-spam	non-spam	 passed
+5	hotel	non-spam	non-spam	 passed
+6	hotel	non-spam	non-spam	 passed
+7	hotel	non-spam	non-spam	 passed
+8	hotel	non-spam	non-spam	 passed
+9	hotel	non-spam	non-spam	 passed
+10	hotel	non-spam	non-spam	 passed
+11	hotel	non-spam	non-spam	 passed
+12	hotel	non-spam	non-spam	 passed
+13	hotel	non-spam	non-spam	 passed
+14	hotel	non-spam	non-spam	 passed
+15	hotel	non-spam	non-spam	 passed
+16	hotel	non-spam	non-spam	 passed
+17	hotel	non-spam	non-spam	 passed
+18	hotel	non-spam	non-spam	 passed
+19	hotel	non-spam	non-spam	 passed
+20	hotel	non-spam	non-spam	 passed
+21	hotel	non-spam	non-spam	 passed
+22	hotel	non-spam	non-spam	 passed
+23	hotel	non-spam	non-spam	 passed
+24	hotel	non-spam	non-spam	 passed
+25	hotel	non-spam	non-spam	 passed
+26	hotel	non-spam	non-spam	 passed
+27	hotel	non-spam	non-spam	 passed
+28	hotel	non-spam	non-spam	 passed
+29	hotel	non-spam	non-spam	 passed
+30	hotel	non-spam	non-spam	 passed
+31	hotel	non-spam	non-spam	 passed
+32	hotel	non-spam	non-spam	 passed
+33	hotel	non-spam	non-spam	 passed
+34	hotel	non-spam	 true 	 - 	 - 	 -	non-review	 fail
+35	hotel	non-spam	non-spam	 passed
+36	hotel	non-spam	non-spam	 passed
+37	hotel	non-spam	non-spam	 passed
+38	hotel	non-spam	non-spam	 passed
+39	hotel	non-spam	non-spam	 passed
+40	hotel	non-spam	non-spam	 passed
+41	hotel	non-spam	non-spam	 passed
+42	hotel	non-spam	non-spam	 passed
+43	hotel	non-spam	non-spam	 passed
+44	hotel	non-spam	non-spam	 passed
+45	hotel	non-spam	non-spam	 passed
+46	hotel	non-spam	non-spam	 passed
+47	hotel	non-spam	non-spam	 passed
+48	hotel	non-spam	non-spam	 passed
+49	hotel	non-spam	non-spam	 passed
+50	hotel	non-spam	non-spam	 passed
+51	hotel	non-spam	 true 	 - 	 - 	 -	non-review	 fail
+52	hotel	non-spam	non-spam	 passed
+53	hotel	non-spam	non-spam	 passed
+54	hotel	non-spam	non-spam	 passed
+55	hotel	non-spam	non-spam	 passed
+56	hotel	non-spam	non-spam	 passed
+57	hotel	non-spam	non-spam	 passed
+58	hotel	non-spam	non-spam	 passed
+59	hotel	non-spam	non-spam	 passed
+60	hotel	non-spam	non-spam	 passed
+61	hotel	non-spam	non-spam	 passed
+62	hotel	non-spam	non-spam	 passed
+63	hotel	non-spam	non-spam	 passed
+64	hotel	non-spam	non-spam	 passed
+65	hotel	non-spam	non-spam	 passed
+66	hotel	non-spam	non-spam	 passed
+67	hotel	non-spam	non-spam	 passed
+68	hotel	non-spam	non-spam	 passed
+69	hotel	non-spam	non-spam	 passed
+70	hotel	non-spam	non-spam	 passed
+71	hotel	non-spam	non-spam	 passed
+72	hotel	non-spam	non-spam	 passed
+73	hotel	non-spam	non-spam	 passed
+74	hotel	non-spam	non-spam	 passed
+75	hotel	non-spam	non-spam	 passed
+76	hotel	non-spam	non-spam	 passed
+77	hotel	non-spam	non-spam	 passed
+78	hotel	non-spam	non-spam	 passed
+79	hotel	non-spam	non-spam	 passed
+80	hotel	non-spam	non-spam	 passed
+81	hotel	non-spam	non-spam	 passed
+82	hotel	non-spam	non-spam	 passed
+83	hotel	non-spam	non-spam	 passed
+84	hotel	non-spam	non-spam	 passed
+85	hotel	non-spam	non-spam	 passed
+86	hotel	non-spam	non-spam	 passed
+87	hotel	non-spam	non-spam	 passed
+88	hotel	non-spam	non-spam	 passed
+89	hotel	non-spam	non-spam	 passed
+90	hotel	non-spam	non-spam	 passed
+91	hotel	non-spam	non-spam	 passed
+92	hotel	non-spam	non-spam	 passed
+93	hotel	non-spam	non-spam	 passed
+94	hotel	non-spam	non-spam	 passed
+95	hotel	non-spam	non-spam	 passed
+96	hotel	non-spam	non-spam	 passed
+97	hotel	non-spam	non-spam	 passed
+98	hotel	non-spam	non-spam	 passed
+99	hotel	non-spam	non-spam	 passed
+100	hotel	non-spam	non-spam	 passed
+
+
+*******************************
+Statistic Spam:
+*******************************
+Type1 (non-review): 	100 testcases	              97.0 passed	3.0 failed	          P = 0.97
+
+
+
+*******************************
+Statistic Non Spam:
+*******************************
+All Type: 		100 testcases	              98.0 passed	2.0 failed	          P = 0.98
+

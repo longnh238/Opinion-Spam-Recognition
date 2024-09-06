@@ -1,0 +1,37 @@
+# NetBeans specific
+nbproject/private/
+nbbuild/
+nbdist/
+nbactions.xml
+nbproject/nbactions.xml
+nbproject/private/private.properties
+nbproject/private/configurations.xml
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Compiled class files
+*.class
+
+# Maven and Gradle build directories
+target/
+build/
+.gradle/
+
+# IDE specific
+*.iml
+*.idea/
+*.vscode/
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.swp
+
+# Other files
+*.bak
+*.tmp
+*.~*

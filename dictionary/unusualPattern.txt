@@ -1,0 +1,38 @@
+\?+
+\.com
+\.c_o_m
+http
+h_t_t_p
+www
+w_w_w
+@
+\$[0-9]*
+[0-9]+.*dollar
+contact
+\+{10}+
+\.{10}+
+\!{10}+
+\*{10}+
+[s|a|x|w|e]{10}+
+[<3]{5}+
+\.\-com
+w w w
+get.*free
+\.co\.uk
+\.info
+\.vn
+\.com.vn
+\.net
+\(\.\)com
+goo\.gl
+bit\.ly
+free apps
+apptrailers
+app trailers
+.*for.*free
+.*earn.*free
+.*earn.*money
+tinyurl
+remove the brackets
+visit.*for more.*
+lol

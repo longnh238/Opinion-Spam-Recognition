@@ -1,0 +1,5925 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/phamhoangtrongnghia/ontologies/2012/4/untitled-ontology-3"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/phamhoangtrongnghia/ontologies/2012/4/untitled-ontology-3">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AcerAspire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AmazonKindle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AppleIpad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AppleIphone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AppleMacbook"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AsusTranformer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AsusZenbook"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CanonEOS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CanonIXUS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CanonPowerShot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DellInspiron"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DellLatitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DellStudio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DellVostro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DellXPS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FujifilmJV300"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FujifilmJX580"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GoogleNexus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GoogleNexusPhone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HPPavilion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HPProbook"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HPTouchSmart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HTCIncredible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HTCOneX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HpCompaq"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LenovoEssensial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LenovoIdeaPad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LenovoIdeaTab"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LenovoThinkPad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nikon5100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NikonCoolpix"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NikonD90"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NikonDSLR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NikonV1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NokiaLumia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NokiaNSeries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SamsungDV300F"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SamsungES90"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SamsungGalaxyNote"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SamsungGalaxyS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SamsungGalaxyTab"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SamsungGalaxyY"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SamsungMV800"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SamsungPL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SamsungST"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SamsungWB150F"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SonyCyperShot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SonyDSC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SonyNek"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SonySLT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SonyVaio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SonyXperia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SonyXperiaTablet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ToshibaExcite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ToshibaSatellite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ToshibaTecra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ToshibaThrive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#attitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#book"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bookBrand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bookFeatures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#c_canon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#c_fujifilm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#c_kodax"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#c_nikon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#c_olympus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#c_panasonic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#c_pentax"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#c_samsung"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#c_sony"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#camera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cameraBrand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cameraColor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cameraDesign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cameraFeatures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cameraOrigin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cameraPopularName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cameraProduceCountry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cameraStyle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#connectivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#e-Product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#facilities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hotel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#l_acer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#l_amazon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#l_apple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#l_asus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#l_dell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#l_fujitsu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#l_google"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#l_hp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#l_ibm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#l_lenovo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#l_lg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#l_samsung"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#l_sony"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#l_toshiba"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#laptop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#laptopBrand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#laptopColor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#laptopComponent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#laptopDesign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#laptopHardware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#laptopOS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#laptopOrigin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#laptopPopularName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#laptopProduceCountry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#laptopSoftware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#laptopStyle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#laptopSympton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#laptopUtilities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#p_amazon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#p_apple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#p_google"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#p_htc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#p_lg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#p_nokia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#p_samsung"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#p_sony"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phoneApplication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phoneBrand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phoneColor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phoneComponent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phoneConnection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phoneDesign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phoneHardware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phoneOS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phoneOperationSupport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phoneOrigin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phoneOthers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phonePopularName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phoneProduceCountry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phoneShape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phoneSoftware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phoneStyle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phoneSympton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#services"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#150f"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3200ISO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3G"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3g"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3gs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#4G"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#4g"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#4s"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#5100"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#5nk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#5s"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AT&amp;T"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amazon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amazon.com"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#America"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Android"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Apple"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Asia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Asus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bella"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blackberry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Brown"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CDMA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CMOS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CMOS_sensor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CPU"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Canon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CanonEOS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Compaq"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DOS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DSC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DSLR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dan_Brown"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Droid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EOS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Edward"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Europe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Finland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fujifilm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fujitsu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GMS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GPS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Galaxy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GalaxyNote"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GalaxyTab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Google"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HDD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HDMI_output"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HD_quality"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HPCompaq"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HPPavilion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HPProbook"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HPtouchsmart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HTC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#High-Speed_Burst"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#High_definition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IBM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Image_Stabilizer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JK"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JK_Rowling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JVC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Japan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kodax"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Korea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lenovo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Linux"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mac"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MacOS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Maemo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MeeGo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Monochrome"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nikon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nokia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nokium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NorthAmerica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Olympus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Palm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PalmOS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Panasonic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pavilion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pentax"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rowling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SCS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SGT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SLR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Samsung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SamsungNote"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Satellite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SatellitePro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Smart_Shutter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sony"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SonyCS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SonyXperia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SouthAmerica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stephenie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Symbian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Toshiba"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ubuntu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vista"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WP7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wb150f"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WebOS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Win8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WinPhone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Window"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Window7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Window8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WindowPhone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WindowXp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Window_Phone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Window_Vista"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XPS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Xperia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XperiaTablet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Y"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#a37k"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#a57k"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#accelerometer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#accessories"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#address_book"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#adjustment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#adventure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#air"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#alarm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anti-virus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#app"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#application"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#apps"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#aspire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#atmosphere"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#attentive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#audio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#author"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#background"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ballroom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bartender"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bathroom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#battery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bedroom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#beer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#begining"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#black"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#black&amp;white"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#black_and_white"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#blanket"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#blast"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#blue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bluetooh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#book"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#booking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#breakfast"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bright"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#brightness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#browser"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#browsing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#buffet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#business_center"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#button"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cafe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#camera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#canon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#canonixus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#canonpwershot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#capacity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#capture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#card"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#card_reader"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cd_room"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cdroom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#center"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chair"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#character"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#charger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chip"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#clarity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#club"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#coffee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#color"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#color_system"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#companies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#company"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#compass"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#computer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#concierge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#conditioner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#connection"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#connectivity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#contact"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#contacts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#content"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#coolpix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#copy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#core"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cover"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cps"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#curve"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#curvy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#customer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cybershot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d3100"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d5100"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d90"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ddr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dellStudio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dellinspiron"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#delllatitude"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dellxps"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#design"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#desk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#desktop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#device"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dialing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#digital"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#digital_camera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dimension"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dinner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#display"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#distributor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#door"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#drink"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#drive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#driver"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dslr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dv300f"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#e-mail"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#eeepad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#elavator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#email"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ending"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#entertainment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#entrance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#es90"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#essensial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ethernet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#excel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#excite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#f3k"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#face_detection"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#facebook"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fact"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fast"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fiction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fictional"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#file"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#flash"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#flash_light"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#flip"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#floor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#focus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#font_desk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#food"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#frame"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#friendly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#friendly_attitude"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fujifilm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fujifilmjv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fujifilmjv300"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fujifilmjx"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fujifilmjx580"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#function"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#functionality"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#galaxy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#galaxyy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#game"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#games"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#glass"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#googlenexus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#graphic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#graphic_card"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ground"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gs2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gs3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gsII"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gsIII"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gym"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hallway"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hard_disk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#helpful"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#holiday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hotel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iOS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ideapad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ideatab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#imac"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#image"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#image_processor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#incredible"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#infrared"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#inspiron"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#intel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#interface"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#internet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ip"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ip."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ip2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ip3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ip3g"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ip3gs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ip4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ip5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ipad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ipad2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ipad3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ipadmini"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iphone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iphone3g"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iphone3gs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iphone4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iphone4s"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iphone5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ipmini"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#itune"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#itunes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ixus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jailbreak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jailbreaking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#juice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jv300"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jx"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jx580"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#key"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#keyboard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#keypad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kindle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kindlefire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kodax"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#l26"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lake"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#laptop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#latitude"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lcd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#length"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lens"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lesson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#light"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#light_source"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lighting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lobby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#location"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#logo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#love"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lumia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lunch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mac"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#macbook"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#macbookair"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#macbookpro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#machine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#macmini"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#maid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mail"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#maintenance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#malware"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#material"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#media"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#media_player"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#memory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#menu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#menu_system"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#messaging"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#metal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#meyer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#miniip"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#miniipad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#modern"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mouse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mouthwash"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#movie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#movie_button"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#multimedia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#music"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mv800"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#n9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#n97"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#natural"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nek"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nek-5nk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nek-f3k"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#network"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#newip"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#newipad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nexus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#night"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nikon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nikond5100"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nikond90"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nikondslr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nikonv1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#noise_reduction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#note"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#office"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#olympus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#onex"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#operating_system"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#optical_disk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#optical_zoom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#page"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#panasonic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#park"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#party"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pdf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pentax"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#perfect"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#performance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#phone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#photo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#photography"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#picture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pillow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pink"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pl120"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pl20"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#place"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#point"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#port"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#portability"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#portrait"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#powerpoint"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#powershot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#preview"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#price"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#prime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#probook"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#processor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#product"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#provider"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ps"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pub"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pure_color"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#quality"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#reader"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#reception"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#recording"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#red"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#red_eye"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#reservation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#resolution"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#restaurant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#romantic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#room"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rotary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rotate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#s2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#s3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#s3300"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#s4150"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#s4300"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sII"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sIII"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#samsung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#samsungdv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#samsungdv300f"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#samsunges90"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#samsungmv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#samsungmv800"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#samsungpl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#samsungpl120"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#samsungpl20"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#samsungst"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#samsungst66"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#samsungst77"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#samsungwb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#samsungwb150f"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#saturation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#screen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#seller"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sensor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#serie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#service"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#service_provider"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#setting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgs2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgs3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgsII"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sgsIII"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#shampoo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#shape"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sheet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#shoot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#shooting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#shop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#shopping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#shot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#silver"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sim"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#siri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#size"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#slide"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#slim"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#slt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#slt-a37k"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#slt-a57k"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#smart_auto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#snack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sofa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#software"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sony"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sonycybershot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sonydsc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sonynek"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sonyslt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sonyvaio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sophisticated"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sound"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sound_card"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#space"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#speaker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#speaker_phone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#speed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#spot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#st"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#st66"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#st77"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stabilizer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#staff"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#standard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stereo_sound"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#storage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#story"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#straight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#studio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stuidoXPS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#supernatural"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#surf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#surfing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#system"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tablet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tampa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#technology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tecra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#television"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#text_messaging"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#thick"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#thin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#thing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#thinkpad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#thinkpadtab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#thrive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#toshibaexcite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#toshibatecra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#toshibathrive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#touch_pad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#touch_screen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#touchpad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#touchsmart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tranformer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tranformerpad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#unlock"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#upgrade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#usb_port"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#user_interface"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#v1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#v3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#v5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vaio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vampire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#video"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#video_call"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#video_recording"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#view"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#voice_mail"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vostro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#w690"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#waiter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#waitress"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#warehouse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#water"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#web"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#web_browser"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#weight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#white"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#white_balance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#width"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wifi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#win"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#window"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#windy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wireless"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#word"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#writer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wx100"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#zen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#zenbook"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#zoom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#zoom_range"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Ontology"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AcerAspire"/>
+        <Class IRI="#l_acer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AmazonKindle"/>
+        <Class IRI="#l_amazon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AppleIpad"/>
+        <Class IRI="#l_apple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AppleIphone"/>
+        <Class IRI="#p_apple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AppleMacbook"/>
+        <Class IRI="#l_apple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AsusTranformer"/>
+        <Class IRI="#l_asus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AsusZenbook"/>
+        <Class IRI="#l_asus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CanonEOS"/>
+        <Class IRI="#c_canon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CanonIXUS"/>
+        <Class IRI="#c_canon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CanonPowerShot"/>
+        <Class IRI="#c_canon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DellInspiron"/>
+        <Class IRI="#l_dell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DellLatitude"/>
+        <Class IRI="#l_dell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DellStudio"/>
+        <Class IRI="#l_dell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DellVostro"/>
+        <Class IRI="#l_dell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DellXPS"/>
+        <Class IRI="#l_dell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FujifilmJV300"/>
+        <Class IRI="#c_fujifilm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FujifilmJX580"/>
+        <Class IRI="#c_fujifilm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GoogleNexus"/>
+        <Class IRI="#l_google"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GoogleNexusPhone"/>
+        <Class IRI="#p_google"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HPPavilion"/>
+        <Class IRI="#l_hp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HPProbook"/>
+        <Class IRI="#l_hp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HPTouchSmart"/>
+        <Class IRI="#l_hp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HTCIncredible"/>
+        <Class IRI="#p_htc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HTCOneX"/>
+        <Class IRI="#p_htc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HpCompaq"/>
+        <Class IRI="#l_hp"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LenovoEssensial"/>
+        <Class IRI="#l_lenovo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LenovoIdeaPad"/>
+        <Class IRI="#l_lenovo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LenovoIdeaTab"/>
+        <Class IRI="#l_lenovo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LenovoThinkPad"/>
+        <Class IRI="#l_lenovo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nikon5100"/>
+        <Class IRI="#c_nikon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NikonCoolpix"/>
+        <Class IRI="#c_nikon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NikonD90"/>
+        <Class IRI="#c_nikon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NikonDSLR"/>
+        <Class IRI="#c_nikon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NikonV1"/>
+        <Class IRI="#c_nikon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NokiaLumia"/>
+        <Class IRI="#p_nokia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NokiaNSeries"/>
+        <Class IRI="#p_nokia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SamsungDV300F"/>
+        <Class IRI="#c_samsung"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SamsungES90"/>
+        <Class IRI="#c_samsung"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SamsungGalaxyNote"/>
+        <Class IRI="#l_samsung"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SamsungGalaxyS"/>
+        <Class IRI="#p_samsung"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SamsungGalaxyTab"/>
+        <Class IRI="#l_samsung"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SamsungGalaxyY"/>
+        <Class IRI="#p_samsung"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SamsungMV800"/>
+        <Class IRI="#c_samsung"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SamsungPL"/>
+        <Class IRI="#c_samsung"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SamsungST"/>
+        <Class IRI="#c_samsung"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SamsungWB150F"/>
+        <Class IRI="#c_samsung"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SonyCyperShot"/>
+        <Class IRI="#c_sony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SonyDSC"/>
+        <Class IRI="#c_sony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SonyNek"/>
+        <Class IRI="#c_sony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SonySLT"/>
+        <Class IRI="#c_sony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SonyVaio"/>
+        <Class IRI="#l_sony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SonyXperia"/>
+        <Class IRI="#p_sony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SonyXperiaTablet"/>
+        <Class IRI="#l_sony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ToshibaExcite"/>
+        <Class IRI="#l_toshiba"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ToshibaSatellite"/>
+        <Class IRI="#l_toshiba"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ToshibaTecra"/>
+        <Class IRI="#l_toshiba"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ToshibaThrive"/>
+        <Class IRI="#l_toshiba"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#attitude"/>
+        <Class IRI="#hotel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bookBrand"/>
+        <Class IRI="#book"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bookFeatures"/>
+        <Class IRI="#book"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#c_canon"/>
+        <Class IRI="#cameraPopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#c_fujifilm"/>
+        <Class IRI="#cameraPopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#c_kodax"/>
+        <Class IRI="#cameraPopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#c_nikon"/>
+        <Class IRI="#cameraPopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#c_olympus"/>
+        <Class IRI="#cameraPopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#c_panasonic"/>
+        <Class IRI="#cameraPopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#c_pentax"/>
+        <Class IRI="#cameraPopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#c_samsung"/>
+        <Class IRI="#cameraPopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#c_sony"/>
+        <Class IRI="#cameraPopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#camera"/>
+        <Class IRI="#e-Product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cameraBrand"/>
+        <Class IRI="#cameraOrigin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cameraColor"/>
+        <Class IRI="#cameraStyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cameraDesign"/>
+        <Class IRI="#cameraStyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cameraFeatures"/>
+        <Class IRI="#camera"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cameraOrigin"/>
+        <Class IRI="#camera"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cameraPopularName"/>
+        <Class IRI="#camera"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cameraProduceCountry"/>
+        <Class IRI="#cameraOrigin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cameraStyle"/>
+        <Class IRI="#camera"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#connectivity"/>
+        <Class IRI="#phoneHardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#facilities"/>
+        <Class IRI="#hotel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#l_acer"/>
+        <Class IRI="#laptopPopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#l_amazon"/>
+        <Class IRI="#laptopPopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#l_apple"/>
+        <Class IRI="#laptopPopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#l_asus"/>
+        <Class IRI="#laptopPopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#l_dell"/>
+        <Class IRI="#laptopPopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#l_fujitsu"/>
+        <Class IRI="#laptopPopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#l_google"/>
+        <Class IRI="#laptopPopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#l_hp"/>
+        <Class IRI="#laptopPopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#l_ibm"/>
+        <Class IRI="#laptopPopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#l_lenovo"/>
+        <Class IRI="#laptopPopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#l_lg"/>
+        <Class IRI="#laptopPopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#l_samsung"/>
+        <Class IRI="#laptopPopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#l_sony"/>
+        <Class IRI="#laptopPopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#l_toshiba"/>
+        <Class IRI="#laptopPopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#laptop"/>
+        <Class IRI="#e-Product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#laptopBrand"/>
+        <Class IRI="#laptopOrigin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#laptopColor"/>
+        <Class IRI="#laptopStyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#laptopComponent"/>
+        <Class IRI="#laptop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#laptopDesign"/>
+        <Class IRI="#laptopStyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#laptopHardware"/>
+        <Class IRI="#laptopComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#laptopOS"/>
+        <Class IRI="#laptopSoftware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#laptopOrigin"/>
+        <Class IRI="#laptop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#laptopPopularName"/>
+        <Class IRI="#laptop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#laptopProduceCountry"/>
+        <Class IRI="#laptopOrigin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#laptopSoftware"/>
+        <Class IRI="#laptopComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#laptopStyle"/>
+        <Class IRI="#laptop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#laptopSympton"/>
+        <Class IRI="#laptop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#laptopUtilities"/>
+        <Class IRI="#laptopSoftware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#p_amazon"/>
+        <Class IRI="#phonePopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#p_apple"/>
+        <Class IRI="#phonePopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#p_google"/>
+        <Class IRI="#phonePopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#p_htc"/>
+        <Class IRI="#phonePopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#p_lg"/>
+        <Class IRI="#phonePopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#p_nokia"/>
+        <Class IRI="#phonePopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#p_samsung"/>
+        <Class IRI="#phonePopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#p_sony"/>
+        <Class IRI="#phonePopularName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phone"/>
+        <Class IRI="#e-Product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phoneApplication"/>
+        <Class IRI="#phoneSoftware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phoneBrand"/>
+        <Class IRI="#phoneOrigin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phoneColor"/>
+        <Class IRI="#phoneStyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phoneComponent"/>
+        <Class IRI="#phone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phoneConnection"/>
+        <Class IRI="#phoneSoftware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phoneDesign"/>
+        <Class IRI="#phoneStyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phoneHardware"/>
+        <Class IRI="#phoneComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phoneOS"/>
+        <Class IRI="#phoneSoftware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phoneOperationSupport"/>
+        <Class IRI="#phoneSoftware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phoneOrigin"/>
+        <Class IRI="#phone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phoneOthers"/>
+        <Class IRI="#phoneComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phonePopularName"/>
+        <Class IRI="#phone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phoneProduceCountry"/>
+        <Class IRI="#phoneOrigin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phoneShape"/>
+        <Class IRI="#phoneStyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phoneSoftware"/>
+        <Class IRI="#phoneComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phoneStyle"/>
+        <Class IRI="#phone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phoneSympton"/>
+        <Class IRI="#phone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#services"/>
+        <Class IRI="#hotel"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#SamsungWB150F"/>
+        <NamedIndividual IRI="#150f"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#3200ISO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneConnection"/>
+        <NamedIndividual IRI="#3G"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectivity"/>
+        <NamedIndividual IRI="#3g"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleIphone"/>
+        <NamedIndividual IRI="#3gs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneConnection"/>
+        <NamedIndividual IRI="#4G"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectivity"/>
+        <NamedIndividual IRI="#4g"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleIphone"/>
+        <NamedIndividual IRI="#4s"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nikon5100"/>
+        <NamedIndividual IRI="#5100"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SonyNek"/>
+        <NamedIndividual IRI="#5nk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleIphone"/>
+        <NamedIndividual IRI="#5s"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneBrand"/>
+        <NamedIndividual IRI="#AT&amp;T"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#l_acer"/>
+        <NamedIndividual IRI="#Acer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopBrand"/>
+        <NamedIndividual IRI="#Acer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookBrand"/>
+        <NamedIndividual IRI="#Amazon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraBrand"/>
+        <NamedIndividual IRI="#Amazon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#l_amazon"/>
+        <NamedIndividual IRI="#Amazon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopBrand"/>
+        <NamedIndividual IRI="#Amazon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#p_amazon"/>
+        <NamedIndividual IRI="#Amazon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneBrand"/>
+        <NamedIndividual IRI="#Amazon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookBrand"/>
+        <NamedIndividual IRI="#Amazon.com"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraBrand"/>
+        <NamedIndividual IRI="#Amazon.com"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#l_amazon"/>
+        <NamedIndividual IRI="#Amazon.com"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopBrand"/>
+        <NamedIndividual IRI="#Amazon.com"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#p_amazon"/>
+        <NamedIndividual IRI="#Amazon.com"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneBrand"/>
+        <NamedIndividual IRI="#Amazon.com"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopProduceCountry"/>
+        <NamedIndividual IRI="#America"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneProduceCountry"/>
+        <NamedIndividual IRI="#America"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopOS"/>
+        <NamedIndividual IRI="#Android"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOS"/>
+        <NamedIndividual IRI="#Android"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#l_apple"/>
+        <NamedIndividual IRI="#Apple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopBrand"/>
+        <NamedIndividual IRI="#Apple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#p_apple"/>
+        <NamedIndividual IRI="#Apple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneBrand"/>
+        <NamedIndividual IRI="#Apple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopProduceCountry"/>
+        <NamedIndividual IRI="#Asia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneProduceCountry"/>
+        <NamedIndividual IRI="#Asia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#l_asus"/>
+        <NamedIndividual IRI="#Asus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopBrand"/>
+        <NamedIndividual IRI="#Asus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOS"/>
+        <NamedIndividual IRI="#Bada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#Bella"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOS"/>
+        <NamedIndividual IRI="#Blackberry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookBrand"/>
+        <NamedIndividual IRI="#Brown"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneConnection"/>
+        <NamedIndividual IRI="#CDMA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#CMOS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#CMOS_sensor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#CPU"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraBrand"/>
+        <NamedIndividual IRI="#Canon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CanonEOS"/>
+        <NamedIndividual IRI="#CanonEOS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HpCompaq"/>
+        <NamedIndividual IRI="#Compaq"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopOS"/>
+        <NamedIndividual IRI="#DOS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SonyDSC"/>
+        <NamedIndividual IRI="#DSC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#DSLR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookBrand"/>
+        <NamedIndividual IRI="#Dan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookBrand"/>
+        <NamedIndividual IRI="#Dan_Brown"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#l_dell"/>
+        <NamedIndividual IRI="#Dell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopBrand"/>
+        <NamedIndividual IRI="#Dell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOS"/>
+        <NamedIndividual IRI="#Droid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CanonEOS"/>
+        <NamedIndividual IRI="#EOS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#Edward"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopProduceCountry"/>
+        <NamedIndividual IRI="#Europe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneProduceCountry"/>
+        <NamedIndividual IRI="#Europe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneProduceCountry"/>
+        <NamedIndividual IRI="#Finland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraBrand"/>
+        <NamedIndividual IRI="#Fujifilm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#l_fujitsu"/>
+        <NamedIndividual IRI="#Fujitsu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopBrand"/>
+        <NamedIndividual IRI="#Fujitsu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneConnection"/>
+        <NamedIndividual IRI="#GMS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneHardware"/>
+        <NamedIndividual IRI="#GPS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungGalaxyTab"/>
+        <NamedIndividual IRI="#Galaxy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungGalaxyNote"/>
+        <NamedIndividual IRI="#GalaxyNote"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungGalaxyTab"/>
+        <NamedIndividual IRI="#GalaxyTab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#l_google"/>
+        <NamedIndividual IRI="#Google"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopBrand"/>
+        <NamedIndividual IRI="#Google"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#p_google"/>
+        <NamedIndividual IRI="#Google"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneBrand"/>
+        <NamedIndividual IRI="#Google"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#HD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#HDD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#HDMI_output"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#HD_quality"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#l_hp"/>
+        <NamedIndividual IRI="#HP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopBrand"/>
+        <NamedIndividual IRI="#HP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HpCompaq"/>
+        <NamedIndividual IRI="#HPCompaq"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HPPavilion"/>
+        <NamedIndividual IRI="#HPPavilion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HPProbook"/>
+        <NamedIndividual IRI="#HPProbook"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HPTouchSmart"/>
+        <NamedIndividual IRI="#HPtouchsmart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#p_htc"/>
+        <NamedIndividual IRI="#HTC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneBrand"/>
+        <NamedIndividual IRI="#HTC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#High-Speed_Burst"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#High_definition"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#l_ibm"/>
+        <NamedIndividual IRI="#IBM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopBrand"/>
+        <NamedIndividual IRI="#IBM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#ISO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#Image_Stabilizer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookBrand"/>
+        <NamedIndividual IRI="#JK"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookBrand"/>
+        <NamedIndividual IRI="#JK_Rowling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FujifilmJV300"/>
+        <NamedIndividual IRI="#JV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraBrand"/>
+        <NamedIndividual IRI="#JVC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopProduceCountry"/>
+        <NamedIndividual IRI="#Japan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneProduceCountry"/>
+        <NamedIndividual IRI="#Japan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraBrand"/>
+        <NamedIndividual IRI="#Kodax"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopProduceCountry"/>
+        <NamedIndividual IRI="#Korea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneProduceCountry"/>
+        <NamedIndividual IRI="#Korea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#l_lg"/>
+        <NamedIndividual IRI="#LG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopBrand"/>
+        <NamedIndividual IRI="#LG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#p_lg"/>
+        <NamedIndividual IRI="#LG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneBrand"/>
+        <NamedIndividual IRI="#LG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#l_lenovo"/>
+        <NamedIndividual IRI="#Lenovo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopBrand"/>
+        <NamedIndividual IRI="#Lenovo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopOS"/>
+        <NamedIndividual IRI="#Linux"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopOS"/>
+        <NamedIndividual IRI="#Mac"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopOS"/>
+        <NamedIndividual IRI="#MacOS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOS"/>
+        <NamedIndividual IRI="#Maemo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOS"/>
+        <NamedIndividual IRI="#MeeGo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#Monochrome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraBrand"/>
+        <NamedIndividual IRI="#Nikon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#p_nokia"/>
+        <NamedIndividual IRI="#Nokia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneBrand"/>
+        <NamedIndividual IRI="#Nokia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#p_nokia"/>
+        <NamedIndividual IRI="#Nokium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneBrand"/>
+        <NamedIndividual IRI="#Nokium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopProduceCountry"/>
+        <NamedIndividual IRI="#NorthAmerica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneProduceCountry"/>
+        <NamedIndividual IRI="#NorthAmerica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopOS"/>
+        <NamedIndividual IRI="#OS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOS"/>
+        <NamedIndividual IRI="#OS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraBrand"/>
+        <NamedIndividual IRI="#Olympus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOS"/>
+        <NamedIndividual IRI="#Palm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOS"/>
+        <NamedIndividual IRI="#PalmOS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraBrand"/>
+        <NamedIndividual IRI="#Panasonic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HPPavilion"/>
+        <NamedIndividual IRI="#Pavilion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraBrand"/>
+        <NamedIndividual IRI="#Pentax"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookBrand"/>
+        <NamedIndividual IRI="#Rowling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SonyCyperShot"/>
+        <NamedIndividual IRI="#SCS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungGalaxyTab"/>
+        <NamedIndividual IRI="#SGT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#SLR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraBrand"/>
+        <NamedIndividual IRI="#Samsung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#l_samsung"/>
+        <NamedIndividual IRI="#Samsung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopBrand"/>
+        <NamedIndividual IRI="#Samsung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#p_samsung"/>
+        <NamedIndividual IRI="#Samsung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneBrand"/>
+        <NamedIndividual IRI="#Samsung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungGalaxyNote"/>
+        <NamedIndividual IRI="#SamsungNote"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ToshibaSatellite"/>
+        <NamedIndividual IRI="#Satellite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ToshibaSatellite"/>
+        <NamedIndividual IRI="#SatellitePro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#Smart_Shutter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraBrand"/>
+        <NamedIndividual IRI="#Sony"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#l_sony"/>
+        <NamedIndividual IRI="#Sony"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopBrand"/>
+        <NamedIndividual IRI="#Sony"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#p_sony"/>
+        <NamedIndividual IRI="#Sony"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneBrand"/>
+        <NamedIndividual IRI="#Sony"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SonyCyperShot"/>
+        <NamedIndividual IRI="#SonyCS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SonyXperia"/>
+        <NamedIndividual IRI="#SonyXperia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopProduceCountry"/>
+        <NamedIndividual IRI="#SouthAmerica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneProduceCountry"/>
+        <NamedIndividual IRI="#SouthAmerica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#Stephenie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOS"/>
+        <NamedIndividual IRI="#Symbian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LenovoThinkPad"/>
+        <NamedIndividual IRI="#TP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#TV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#l_toshiba"/>
+        <NamedIndividual IRI="#Toshiba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopBrand"/>
+        <NamedIndividual IRI="#Toshiba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopOS"/>
+        <NamedIndividual IRI="#Ubuntu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopOS"/>
+        <NamedIndividual IRI="#Vista"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungWB150F"/>
+        <NamedIndividual IRI="#WB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopOS"/>
+        <NamedIndividual IRI="#WP7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOS"/>
+        <NamedIndividual IRI="#WP7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungWB150F"/>
+        <NamedIndividual IRI="#Wb150f"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOS"/>
+        <NamedIndividual IRI="#WebOS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopOS"/>
+        <NamedIndividual IRI="#Win8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOS"/>
+        <NamedIndividual IRI="#WinPhone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopOS"/>
+        <NamedIndividual IRI="#Window"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopOS"/>
+        <NamedIndividual IRI="#Window7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopOS"/>
+        <NamedIndividual IRI="#Window8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOS"/>
+        <NamedIndividual IRI="#WindowPhone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopOS"/>
+        <NamedIndividual IRI="#WindowXp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOS"/>
+        <NamedIndividual IRI="#Window_Phone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopOS"/>
+        <NamedIndividual IRI="#Window_Vista"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopOS"/>
+        <NamedIndividual IRI="#XP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DellXPS"/>
+        <NamedIndividual IRI="#XPS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SonyXperia"/>
+        <NamedIndividual IRI="#Xperia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SonyXperiaTablet"/>
+        <NamedIndividual IRI="#Xperia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SonyXperiaTablet"/>
+        <NamedIndividual IRI="#XperiaTablet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungGalaxyY"/>
+        <NamedIndividual IRI="#Y"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SonySLT"/>
+        <NamedIndividual IRI="#a37k"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SonySLT"/>
+        <NamedIndividual IRI="#a57k"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneHardware"/>
+        <NamedIndividual IRI="#accelerometer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOthers"/>
+        <NamedIndividual IRI="#accessories"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneApplication"/>
+        <NamedIndividual IRI="#address_book"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#adjustment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#adventure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#air"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneApplication"/>
+        <NamedIndividual IRI="#alarm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopUtilities"/>
+        <NamedIndividual IRI="#anti-virus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopUtilities"/>
+        <NamedIndividual IRI="#app"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneApplication"/>
+        <NamedIndividual IRI="#app"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopUtilities"/>
+        <NamedIndividual IRI="#application"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneApplication"/>
+        <NamedIndividual IRI="#application"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneApplication"/>
+        <NamedIndividual IRI="#apps"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AcerAspire"/>
+        <NamedIndividual IRI="#aspire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#atmosphere"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#attitude"/>
+        <NamedIndividual IRI="#attentive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#audio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#author"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#background"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#ballroom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#bar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#bartender"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#bathroom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#battery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#battery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneHardware"/>
+        <NamedIndividual IRI="#battery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#bed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#bedroom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#beer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#begining"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraColor"/>
+        <NamedIndividual IRI="#black"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopColor"/>
+        <NamedIndividual IRI="#black"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneColor"/>
+        <NamedIndividual IRI="#black"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraColor"/>
+        <NamedIndividual IRI="#black&amp;white"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopColor"/>
+        <NamedIndividual IRI="#black&amp;white"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneColor"/>
+        <NamedIndividual IRI="#black&amp;white"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraColor"/>
+        <NamedIndividual IRI="#black_and_white"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopColor"/>
+        <NamedIndividual IRI="#black_and_white"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneColor"/>
+        <NamedIndividual IRI="#black_and_white"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#blanket"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#blast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraColor"/>
+        <NamedIndividual IRI="#blue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopColor"/>
+        <NamedIndividual IRI="#blue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneColor"/>
+        <NamedIndividual IRI="#blue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectivity"/>
+        <NamedIndividual IRI="#bluetooh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#book"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#booking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#breakfast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraColor"/>
+        <NamedIndividual IRI="#bright"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopColor"/>
+        <NamedIndividual IRI="#bright"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneColor"/>
+        <NamedIndividual IRI="#bright"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopUtilities"/>
+        <NamedIndividual IRI="#brightness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopUtilities"/>
+        <NamedIndividual IRI="#browser"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneApplication"/>
+        <NamedIndividual IRI="#browser"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopUtilities"/>
+        <NamedIndividual IRI="#browsing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#buffet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#business_center"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneHardware"/>
+        <NamedIndividual IRI="#button"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#cafe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#cam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#camera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#camera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneHardware"/>
+        <NamedIndividual IRI="#camera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#c_canon"/>
+        <NamedIndividual IRI="#canon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CanonIXUS"/>
+        <NamedIndividual IRI="#canonixus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CanonPowerShot"/>
+        <NamedIndividual IRI="#canonpwershot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopUtilities"/>
+        <NamedIndividual IRI="#capacity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneHardware"/>
+        <NamedIndividual IRI="#capture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#card"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#card_reader"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#cd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#cd_room"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#cdroom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#center"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#chair"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#character"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#charger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#charger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneHardware"/>
+        <NamedIndividual IRI="#charger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#chip"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#clarity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#club"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#coffee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraColor"/>
+        <NamedIndividual IRI="#color"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopColor"/>
+        <NamedIndividual IRI="#color"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneDesign"/>
+        <NamedIndividual IRI="#color"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#color_system"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneBrand"/>
+        <NamedIndividual IRI="#companies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookBrand"/>
+        <NamedIndividual IRI="#company"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraBrand"/>
+        <NamedIndividual IRI="#company"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopBrand"/>
+        <NamedIndividual IRI="#company"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneBrand"/>
+        <NamedIndividual IRI="#company"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneHardware"/>
+        <NamedIndividual IRI="#compass"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#computer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#concierge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#conditioner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneHardware"/>
+        <NamedIndividual IRI="#connection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneHardware"/>
+        <NamedIndividual IRI="#connectivity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneApplication"/>
+        <NamedIndividual IRI="#contact"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneApplication"/>
+        <NamedIndividual IRI="#contacts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#content"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NikonCoolpix"/>
+        <NamedIndividual IRI="#coolpix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#copy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#core"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#cover"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraDesign"/>
+        <NamedIndividual IRI="#cover"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#cover"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneDesign"/>
+        <NamedIndividual IRI="#cover"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CanonPowerShot"/>
+        <NamedIndividual IRI="#cps"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SonyCyperShot"/>
+        <NamedIndividual IRI="#cs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#curve"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneShape"/>
+        <NamedIndividual IRI="#curve"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#curvy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneDesign"/>
+        <NamedIndividual IRI="#curvy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#customer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SonyCyperShot"/>
+        <NamedIndividual IRI="#cybershot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NikonDSLR"/>
+        <NamedIndividual IRI="#d3100"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nikon5100"/>
+        <NamedIndividual IRI="#d5100"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NikonD90"/>
+        <NamedIndividual IRI="#d90"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraColor"/>
+        <NamedIndividual IRI="#dark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopColor"/>
+        <NamedIndividual IRI="#dark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneColor"/>
+        <NamedIndividual IRI="#dark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#ddr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DellStudio"/>
+        <NamedIndividual IRI="#dellStudio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DellInspiron"/>
+        <NamedIndividual IRI="#dellinspiron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DellLatitude"/>
+        <NamedIndividual IRI="#delllatitude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DellXPS"/>
+        <NamedIndividual IRI="#dellxps"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#design"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneDesign"/>
+        <NamedIndividual IRI="#design"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#desk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOperationSupport"/>
+        <NamedIndividual IRI="#desktop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#device"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneHardware"/>
+        <NamedIndividual IRI="#device"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOperationSupport"/>
+        <NamedIndividual IRI="#dialing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#digital"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#digital_camera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#dimension"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneShape"/>
+        <NamedIndividual IRI="#dimension"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#dinner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneDesign"/>
+        <NamedIndividual IRI="#display"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookBrand"/>
+        <NamedIndividual IRI="#distributor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraBrand"/>
+        <NamedIndividual IRI="#distributor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopBrand"/>
+        <NamedIndividual IRI="#distributor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneBrand"/>
+        <NamedIndividual IRI="#distributor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#door"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#drink"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#drive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#driver"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NikonDSLR"/>
+        <NamedIndividual IRI="#dslr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungDV300F"/>
+        <NamedIndividual IRI="#dv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungDV300F"/>
+        <NamedIndividual IRI="#dv300f"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopUtilities"/>
+        <NamedIndividual IRI="#e-mail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneApplication"/>
+        <NamedIndividual IRI="#e-mail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsusTranformer"/>
+        <NamedIndividual IRI="#eeepad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#elavator"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopUtilities"/>
+        <NamedIndividual IRI="#email"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneApplication"/>
+        <NamedIndividual IRI="#email"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#ending"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#entertainment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#entrance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungES90"/>
+        <NamedIndividual IRI="#es90"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LenovoEssensial"/>
+        <NamedIndividual IRI="#essensial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#ethernet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopUtilities"/>
+        <NamedIndividual IRI="#excel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ToshibaExcite"/>
+        <NamedIndividual IRI="#excite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SonyNek"/>
+        <NamedIndividual IRI="#f3k"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#face_detection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneApplication"/>
+        <NamedIndividual IRI="#facebook"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#fact"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#fan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOthers"/>
+        <NamedIndividual IRI="#fast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#fiction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#fictional"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopUtilities"/>
+        <NamedIndividual IRI="#file"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#fit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneDesign"/>
+        <NamedIndividual IRI="#fit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#flash"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#flash_light"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#flip"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneShape"/>
+        <NamedIndividual IRI="#flip"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#floor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#focus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#font_desk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#food"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#frame"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#frame"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#attitude"/>
+        <NamedIndividual IRI="#friendly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#attitude"/>
+        <NamedIndividual IRI="#friendly_attitude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#c_fujifilm"/>
+        <NamedIndividual IRI="#fujifilm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FujifilmJV300"/>
+        <NamedIndividual IRI="#fujifilmjv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FujifilmJV300"/>
+        <NamedIndividual IRI="#fujifilmjv300"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FujifilmJX580"/>
+        <NamedIndividual IRI="#fujifilmjx"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FujifilmJX580"/>
+        <NamedIndividual IRI="#fujifilmjx580"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#function"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOperationSupport"/>
+        <NamedIndividual IRI="#functionality"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungGalaxyNote"/>
+        <NamedIndividual IRI="#galaxy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungGalaxyS"/>
+        <NamedIndividual IRI="#galaxy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungGalaxyTab"/>
+        <NamedIndividual IRI="#galaxy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungGalaxyY"/>
+        <NamedIndividual IRI="#galaxy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungGalaxyY"/>
+        <NamedIndividual IRI="#galaxyy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopUtilities"/>
+        <NamedIndividual IRI="#game"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneApplication"/>
+        <NamedIndividual IRI="#game"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#games"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneHardware"/>
+        <NamedIndividual IRI="#glass"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GoogleNexus"/>
+        <NamedIndividual IRI="#googlenexus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GoogleNexusPhone"/>
+        <NamedIndividual IRI="#googlenexus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopUtilities"/>
+        <NamedIndividual IRI="#graphic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneDesign"/>
+        <NamedIndividual IRI="#graphic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#graphic_card"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#ground"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungGalaxyS"/>
+        <NamedIndividual IRI="#gs2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungGalaxyS"/>
+        <NamedIndividual IRI="#gs3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungGalaxyS"/>
+        <NamedIndividual IRI="#gsII"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungGalaxyS"/>
+        <NamedIndividual IRI="#gsIII"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#gym"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#hallway"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#hard_disk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#attitude"/>
+        <NamedIndividual IRI="#helpful"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#holiday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#hotel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopOS"/>
+        <NamedIndividual IRI="#iOS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOS"/>
+        <NamedIndividual IRI="#iOS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LenovoIdeaPad"/>
+        <NamedIndividual IRI="#ideapad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LenovoIdeaTab"/>
+        <NamedIndividual IRI="#ideatab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleMacbook"/>
+        <NamedIndividual IRI="#imac"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#image"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#image_processor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HTCIncredible"/>
+        <NamedIndividual IRI="#incredible"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectivity"/>
+        <NamedIndividual IRI="#infrared"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DellInspiron"/>
+        <NamedIndividual IRI="#inspiron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#intel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneDesign"/>
+        <NamedIndividual IRI="#interface"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneApplication"/>
+        <NamedIndividual IRI="#internet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleIpad"/>
+        <NamedIndividual IRI="#ip"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleIphone"/>
+        <NamedIndividual IRI="#ip."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleIpad"/>
+        <NamedIndividual IRI="#ip2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleIphone"/>
+        <NamedIndividual IRI="#ip3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleIphone"/>
+        <NamedIndividual IRI="#ip3g"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleIphone"/>
+        <NamedIndividual IRI="#ip3gs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleIphone"/>
+        <NamedIndividual IRI="#ip4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleIphone"/>
+        <NamedIndividual IRI="#ip5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleIpad"/>
+        <NamedIndividual IRI="#ipad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleIpad"/>
+        <NamedIndividual IRI="#ipad2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleIpad"/>
+        <NamedIndividual IRI="#ipad3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleIpad"/>
+        <NamedIndividual IRI="#ipadmini"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleIphone"/>
+        <NamedIndividual IRI="#iphone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleIphone"/>
+        <NamedIndividual IRI="#iphone3g"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleIphone"/>
+        <NamedIndividual IRI="#iphone3gs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleIphone"/>
+        <NamedIndividual IRI="#iphone4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleIphone"/>
+        <NamedIndividual IRI="#iphone4s"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleIphone"/>
+        <NamedIndividual IRI="#iphone5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleIpad"/>
+        <NamedIndividual IRI="#ipmini"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopUtilities"/>
+        <NamedIndividual IRI="#itune"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopUtilities"/>
+        <NamedIndividual IRI="#itunes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CanonIXUS"/>
+        <NamedIndividual IRI="#ixus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneSympton"/>
+        <NamedIndividual IRI="#jailbreak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneSympton"/>
+        <NamedIndividual IRI="#jailbreaking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneSympton"/>
+        <NamedIndividual IRI="#jb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#juice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FujifilmJV300"/>
+        <NamedIndividual IRI="#jv300"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FujifilmJX580"/>
+        <NamedIndividual IRI="#jx"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FujifilmJX580"/>
+        <NamedIndividual IRI="#jx580"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#key"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneHardware"/>
+        <NamedIndividual IRI="#keyboard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneHardware"/>
+        <NamedIndividual IRI="#keypad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AmazonKindle"/>
+        <NamedIndividual IRI="#kindle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AmazonKindle"/>
+        <NamedIndividual IRI="#kindlefire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#c_kodax"/>
+        <NamedIndividual IRI="#kodax"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NikonCoolpix"/>
+        <NamedIndividual IRI="#l26"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#lake"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#laptop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DellLatitude"/>
+        <NamedIndividual IRI="#latitude"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#lcd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneShape"/>
+        <NamedIndividual IRI="#length"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#lens"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#lesson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#light"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopUtilities"/>
+        <NamedIndividual IRI="#light"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneDesign"/>
+        <NamedIndividual IRI="#light"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#light_source"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#lighting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#lobby"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#location"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#logo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneDesign"/>
+        <NamedIndividual IRI="#logo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#love"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NokiaLumia"/>
+        <NamedIndividual IRI="#lumia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#lunch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleMacbook"/>
+        <NamedIndividual IRI="#mac"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleMacbook"/>
+        <NamedIndividual IRI="#macbook"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleMacbook"/>
+        <NamedIndividual IRI="#macbookair"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleMacbook"/>
+        <NamedIndividual IRI="#macbookpro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#machine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#machine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleMacbook"/>
+        <NamedIndividual IRI="#macmini"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#maid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneApplication"/>
+        <NamedIndividual IRI="#mail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOperationSupport"/>
+        <NamedIndividual IRI="#maintenance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopSympton"/>
+        <NamedIndividual IRI="#malware"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#material"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#material"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopUtilities"/>
+        <NamedIndividual IRI="#media"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOperationSupport"/>
+        <NamedIndividual IRI="#media"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOperationSupport"/>
+        <NamedIndividual IRI="#media_player"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#memory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneHardware"/>
+        <NamedIndividual IRI="#memory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#menu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOperationSupport"/>
+        <NamedIndividual IRI="#menu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOperationSupport"/>
+        <NamedIndividual IRI="#menu_system"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOperationSupport"/>
+        <NamedIndividual IRI="#messaging"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#metal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneDesign"/>
+        <NamedIndividual IRI="#metal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#meyer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleIpad"/>
+        <NamedIndividual IRI="#miniip"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleIpad"/>
+        <NamedIndividual IRI="#miniipad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#modern"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneDesign"/>
+        <NamedIndividual IRI="#modern"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#mouse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#mouthwash"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#movie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#movie_button"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOperationSupport"/>
+        <NamedIndividual IRI="#multimedia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOperationSupport"/>
+        <NamedIndividual IRI="#music"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungMV800"/>
+        <NamedIndividual IRI="#mv800"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NokiaNSeries"/>
+        <NamedIndividual IRI="#n9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NokiaNSeries"/>
+        <NamedIndividual IRI="#n97"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#natural"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneDesign"/>
+        <NamedIndividual IRI="#natural"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SonyNek"/>
+        <NamedIndividual IRI="#nek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SonyNek"/>
+        <NamedIndividual IRI="#nek-5nk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SonyNek"/>
+        <NamedIndividual IRI="#nek-f3k"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopUtilities"/>
+        <NamedIndividual IRI="#network"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneConnection"/>
+        <NamedIndividual IRI="#network"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleIpad"/>
+        <NamedIndividual IRI="#newip"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleIpad"/>
+        <NamedIndividual IRI="#newipad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GoogleNexus"/>
+        <NamedIndividual IRI="#nexus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GoogleNexusPhone"/>
+        <NamedIndividual IRI="#nexus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#attitude"/>
+        <NamedIndividual IRI="#nice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#nice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#night"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#c_nikon"/>
+        <NamedIndividual IRI="#nikon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nikon5100"/>
+        <NamedIndividual IRI="#nikond5100"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NikonD90"/>
+        <NamedIndividual IRI="#nikond90"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NikonDSLR"/>
+        <NamedIndividual IRI="#nikondslr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NikonV1"/>
+        <NamedIndividual IRI="#nikonv1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#noise_reduction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungGalaxyNote"/>
+        <NamedIndividual IRI="#note"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOperationSupport"/>
+        <NamedIndividual IRI="#office"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#c_olympus"/>
+        <NamedIndividual IRI="#olympus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HTCOneX"/>
+        <NamedIndividual IRI="#onex"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopOS"/>
+        <NamedIndividual IRI="#operating_system"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOS"/>
+        <NamedIndividual IRI="#operating_system"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#optical_disk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#optical_zoom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#page"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#c_panasonic"/>
+        <NamedIndividual IRI="#panasonic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#paper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#park"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#party"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopUtilities"/>
+        <NamedIndividual IRI="#pdf"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#c_pentax"/>
+        <NamedIndividual IRI="#pentax"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#perfect"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOthers"/>
+        <NamedIndividual IRI="#perfect"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#performance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneHardware"/>
+        <NamedIndividual IRI="#phone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#photo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#photography"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#picture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOperationSupport"/>
+        <NamedIndividual IRI="#picture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#pillow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraColor"/>
+        <NamedIndividual IRI="#pink"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopColor"/>
+        <NamedIndividual IRI="#pink"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneColor"/>
+        <NamedIndividual IRI="#pink"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#pix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungPL"/>
+        <NamedIndividual IRI="#pl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungPL"/>
+        <NamedIndividual IRI="#pl120"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungPL"/>
+        <NamedIndividual IRI="#pl20"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#place"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#point"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#port"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#portability"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#portrait"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopUtilities"/>
+        <NamedIndividual IRI="#powerpoint"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CanonPowerShot"/>
+        <NamedIndividual IRI="#powershot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#preview"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOthers"/>
+        <NamedIndividual IRI="#price"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsusTranformer"/>
+        <NamedIndividual IRI="#prime"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AppleMacbook"/>
+        <NamedIndividual IRI="#pro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HPProbook"/>
+        <NamedIndividual IRI="#probook"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneHardware"/>
+        <NamedIndividual IRI="#processor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#product"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookBrand"/>
+        <NamedIndividual IRI="#provider"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraBrand"/>
+        <NamedIndividual IRI="#provider"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopBrand"/>
+        <NamedIndividual IRI="#provider"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneBrand"/>
+        <NamedIndividual IRI="#provider"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CanonPowerShot"/>
+        <NamedIndividual IRI="#ps"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#pub"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#pure_color"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#quality"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#ram"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#reader"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#reception"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOperationSupport"/>
+        <NamedIndividual IRI="#recording"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraColor"/>
+        <NamedIndividual IRI="#red"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopColor"/>
+        <NamedIndividual IRI="#red"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneColor"/>
+        <NamedIndividual IRI="#red"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#red_eye"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#reservation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#resolution"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#restaurant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#rom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#romantic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#room"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#rotary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneShape"/>
+        <NamedIndividual IRI="#rotary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#rotate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneShape"/>
+        <NamedIndividual IRI="#rotate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungGalaxyS"/>
+        <NamedIndividual IRI="#s2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungGalaxyS"/>
+        <NamedIndividual IRI="#s3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NikonCoolpix"/>
+        <NamedIndividual IRI="#s3300"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NikonCoolpix"/>
+        <NamedIndividual IRI="#s4150"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NikonCoolpix"/>
+        <NamedIndividual IRI="#s4300"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungGalaxyS"/>
+        <NamedIndividual IRI="#sII"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungGalaxyS"/>
+        <NamedIndividual IRI="#sIII"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#c_samsung"/>
+        <NamedIndividual IRI="#samsung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungDV300F"/>
+        <NamedIndividual IRI="#samsungdv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungDV300F"/>
+        <NamedIndividual IRI="#samsungdv300f"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungES90"/>
+        <NamedIndividual IRI="#samsunges90"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungMV800"/>
+        <NamedIndividual IRI="#samsungmv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungMV800"/>
+        <NamedIndividual IRI="#samsungmv800"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungPL"/>
+        <NamedIndividual IRI="#samsungpl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungPL"/>
+        <NamedIndividual IRI="#samsungpl120"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungPL"/>
+        <NamedIndividual IRI="#samsungpl20"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungST"/>
+        <NamedIndividual IRI="#samsungst"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungST"/>
+        <NamedIndividual IRI="#samsungst66"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungST"/>
+        <NamedIndividual IRI="#samsungst77"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungWB150F"/>
+        <NamedIndividual IRI="#samsungwb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungWB150F"/>
+        <NamedIndividual IRI="#samsungwb150f"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#saturation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#screen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#screen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneHardware"/>
+        <NamedIndividual IRI="#screen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookBrand"/>
+        <NamedIndividual IRI="#seller"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraBrand"/>
+        <NamedIndividual IRI="#seller"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopBrand"/>
+        <NamedIndividual IRI="#seller"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneBrand"/>
+        <NamedIndividual IRI="#seller"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneHardware"/>
+        <NamedIndividual IRI="#sensor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#serie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#service"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOthers"/>
+        <NamedIndividual IRI="#service_provider"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#setting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungGalaxyNote"/>
+        <NamedIndividual IRI="#sgn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungGalaxyS"/>
+        <NamedIndividual IRI="#sgs2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungGalaxyS"/>
+        <NamedIndividual IRI="#sgs3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungGalaxyS"/>
+        <NamedIndividual IRI="#sgsII"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungGalaxyS"/>
+        <NamedIndividual IRI="#sgsIII"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#shampoo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#shape"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneDesign"/>
+        <NamedIndividual IRI="#shape"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#sheet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#shoot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#shooting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#shop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#shopping"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#shot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraColor"/>
+        <NamedIndividual IRI="#silver"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopColor"/>
+        <NamedIndividual IRI="#silver"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#silver"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneColor"/>
+        <NamedIndividual IRI="#silver"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOthers"/>
+        <NamedIndividual IRI="#sim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneApplication"/>
+        <NamedIndividual IRI="#siri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#size"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneDesign"/>
+        <NamedIndividual IRI="#size"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#slide"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneShape"/>
+        <NamedIndividual IRI="#slide"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#slim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneDesign"/>
+        <NamedIndividual IRI="#slim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SonySLT"/>
+        <NamedIndividual IRI="#slt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SonySLT"/>
+        <NamedIndividual IRI="#slt-a37k"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SonySLT"/>
+        <NamedIndividual IRI="#slt-a57k"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#smart_auto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#services"/>
+        <NamedIndividual IRI="#snack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#sofa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopUtilities"/>
+        <NamedIndividual IRI="#software"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#c_sony"/>
+        <NamedIndividual IRI="#sony"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SonyCyperShot"/>
+        <NamedIndividual IRI="#sonycybershot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SonyDSC"/>
+        <NamedIndividual IRI="#sonydsc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SonyNek"/>
+        <NamedIndividual IRI="#sonynek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SonySLT"/>
+        <NamedIndividual IRI="#sonyslt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SonyVaio"/>
+        <NamedIndividual IRI="#sonyvaio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#sophisticated"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneDesign"/>
+        <NamedIndividual IRI="#sophisticated"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#sound"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#sound_card"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#space"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneHardware"/>
+        <NamedIndividual IRI="#speaker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneHardware"/>
+        <NamedIndividual IRI="#speaker_phone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#speed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOthers"/>
+        <NamedIndividual IRI="#speed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#spot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungST"/>
+        <NamedIndividual IRI="#st"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungST"/>
+        <NamedIndividual IRI="#st66"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SamsungST"/>
+        <NamedIndividual IRI="#st77"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#stabilizer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#attitude"/>
+        <NamedIndividual IRI="#staff"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#standard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#stereo_sound"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneHardware"/>
+        <NamedIndividual IRI="#storage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#story"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#straight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneShape"/>
+        <NamedIndividual IRI="#straight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DellStudio"/>
+        <NamedIndividual IRI="#studio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DellStudio"/>
+        <NamedIndividual IRI="#stuidoXPS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#supernatural"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopUtilities"/>
+        <NamedIndividual IRI="#surf"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopUtilities"/>
+        <NamedIndividual IRI="#surfing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopUtilities"/>
+        <NamedIndividual IRI="#system"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOperationSupport"/>
+        <NamedIndividual IRI="#system"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#l_samsung"/>
+        <NamedIndividual IRI="#tab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#tablet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopBrand"/>
+        <NamedIndividual IRI="#tampa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOthers"/>
+        <NamedIndividual IRI="#technology"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ToshibaTecra"/>
+        <NamedIndividual IRI="#tecra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#television"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOperationSupport"/>
+        <NamedIndividual IRI="#text_messaging"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#thick"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneShape"/>
+        <NamedIndividual IRI="#thick"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#thin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneShape"/>
+        <NamedIndividual IRI="#thin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#thing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LenovoThinkPad"/>
+        <NamedIndividual IRI="#thinkpad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LenovoIdeaTab"/>
+        <NamedIndividual IRI="#thinkpadtab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ToshibaThrive"/>
+        <NamedIndividual IRI="#thrive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ToshibaExcite"/>
+        <NamedIndividual IRI="#toshibaexcite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ToshibaTecra"/>
+        <NamedIndividual IRI="#toshibatecra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ToshibaThrive"/>
+        <NamedIndividual IRI="#toshibathrive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneHardware"/>
+        <NamedIndividual IRI="#touch_pad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneHardware"/>
+        <NamedIndividual IRI="#touch_screen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#touchpad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HPTouchSmart"/>
+        <NamedIndividual IRI="#touchsmart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsusTranformer"/>
+        <NamedIndividual IRI="#tranformer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsusTranformer"/>
+        <NamedIndividual IRI="#tranformerpad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneSympton"/>
+        <NamedIndividual IRI="#unlock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOthers"/>
+        <NamedIndividual IRI="#upgrade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#usb_port"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneDesign"/>
+        <NamedIndividual IRI="#user_interface"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NikonV1"/>
+        <NamedIndividual IRI="#v1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AcerAspire"/>
+        <NamedIndividual IRI="#v3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AcerAspire"/>
+        <NamedIndividual IRI="#v5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SonyVaio"/>
+        <NamedIndividual IRI="#vaio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#vampire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#video"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopUtilities"/>
+        <NamedIndividual IRI="#video"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOperationSupport"/>
+        <NamedIndividual IRI="#video_call"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneOperationSupport"/>
+        <NamedIndividual IRI="#video_recording"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#view"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneApplication"/>
+        <NamedIndividual IRI="#voice_mail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DellVostro"/>
+        <NamedIndividual IRI="#vostro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SonyDSC"/>
+        <NamedIndividual IRI="#w690"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#attitude"/>
+        <NamedIndividual IRI="#waiter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#attitude"/>
+        <NamedIndividual IRI="#waitress"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopBrand"/>
+        <NamedIndividual IRI="#warehouse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#water"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneApplication"/>
+        <NamedIndividual IRI="#web"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneApplication"/>
+        <NamedIndividual IRI="#web_browser"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopDesign"/>
+        <NamedIndividual IRI="#weight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneDesign"/>
+        <NamedIndividual IRI="#weight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraColor"/>
+        <NamedIndividual IRI="#white"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopColor"/>
+        <NamedIndividual IRI="#white"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneColor"/>
+        <NamedIndividual IRI="#white"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#white_balance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#phoneShape"/>
+        <NamedIndividual IRI="#width"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectivity"/>
+        <NamedIndividual IRI="#wifi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#wifi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopOS"/>
+        <NamedIndividual IRI="#win"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#window"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#facilities"/>
+        <NamedIndividual IRI="#windy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#connectivity"/>
+        <NamedIndividual IRI="#wireless"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopHardware"/>
+        <NamedIndividual IRI="#wireless"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#laptopUtilities"/>
+        <NamedIndividual IRI="#word"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bookFeatures"/>
+        <NamedIndividual IRI="#writer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SonyDSC"/>
+        <NamedIndividual IRI="#wx100"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsusZenbook"/>
+        <NamedIndividual IRI="#zen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AsusZenbook"/>
+        <NamedIndividual IRI="#zenbook"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#zoom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cameraFeatures"/>
+        <NamedIndividual IRI="#zoom_range"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="#Toshiba"/>
+        <NamedIndividual IRI="#companies"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Toshiba"/>
+        <NamedIndividual IRI="#company"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Toshiba"/>
+        <NamedIndividual IRI="#seller"/>
+    </SameIndividual>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#e-Product</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral"></Literal>
+    </AnnotationAssertion>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Ontology"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+    </SubAnnotationPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
+
